@@ -72,3 +72,52 @@ body {
     font-size: 22px;
     font-family: 'Square Peg', cursive;
 }
+
+@media (min-width: 1445px) {
+    .top-banner {
+        margin-top: -10%;
+        margin-bottom: 3%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .top-banner {
+        margin-top: -8%;
+        margin-bottom: 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-banner {
+        margin-top: 10%;
+        margin-bottom: 3%;
+    }
+}
+
+@media (max-width: 600px) {
+    .top-banner {
+        margin-top: 12%;
+        margin-bottom: 3%;
+    }
+}
+
+@media (max-width: 500px) {
+    .top-banner {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 375px) {
+    .top-banner {
+        margin-top: 22%;
+        margin-bottom: 2%;
+    }
+}
+
+@media (max-width: 320px) {
+    .top-banner {
+        margin-top: 38%;
+        margin-bottom: 2%;
+    }
+}
+
